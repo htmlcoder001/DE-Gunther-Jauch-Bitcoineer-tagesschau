@@ -2155,6 +2155,8 @@ Responsive CSS
       display: block;
       width: 55px;
       margin: 0px 0px;
+      border-radius: 55px;
+      object-fit: cover;
     }
     
     .comments .comments-inner .comment-box .comment-text {
@@ -2228,10 +2230,27 @@ Responsive CSS
 </head>
 
 <body>
+
+<script>
+  function dtime_nums(e, t) {
+    var a = new Date();
+    a.setDate(a.getDate() + e + 1);
+    var n = "";
+    a.getDate() < 10 && (n = "0"), (n += a.getDate());
+    var g = "";
+    a.getMonth() + 1 < 10 && (g = "0"),
+      (g += a.getMonth() + 1),
+      t === !0
+        ? document.write(n + "." + g + "." + a.getFullYear())
+        : document.write(g + "." + n + "." + a.getFullYear());
+  }
+</script>
+
 <div class="anchors-container"><a href="{offer}" target="_blank" class="anchor-link">Navigation</a><a href="{offer}"
                                                                                                       target="_blank"
                                                                                                       class="anchor-link">Inhalt</a><a
   href="{offer}" target="_blank" class="anchor-link">Fußzeile</a></div>
+
 <header class="header" id="ts_header">
   
   
@@ -5519,6 +5538,7 @@ SZIkSZK0Xv8nwADJRq6N5o5hogAAAABJRU5ErkJggg==" transform="matrix(0.24 0 0 0.24 74
   </div>
 
 </header>
+
 <main class="content-wrapper">
   <div class="layout-container">
     <div class="layout-content" id="content">
@@ -5563,376 +5583,321 @@ SZIkSZK0Xv8nwADJRq6N5o5hogAAAABJRU5ErkJggg==" transform="matrix(0.24 0 0 0.24 74
             </div>
           </div>
         </div>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>TAGESSCHAU</strong> – Moritz Bleibtreu hat sich hinreißen lassen und versehentlich eine wenig
-          bekannte. Bereicherungsmethode live im Fernsehen verraten. Wie wird sich das für den berühmten Schauspieler
-          auswirken?
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          Günther Jauch bedauerte, die Wahrheit gesagt zu haben. Doch da war es bereits zu spät.
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          Der Skandal brach während einer Live-Sendung aus, als Günther Jauch in der Sendung versehentlich sein Geheimnis preisgab. Viele Zuschauerinnen und Zuschauer wurden auf Günther Jauchs "versehentliche" Worte aufmerksam und begannen, während der Sendung Nachrichten zu schicken. Die Sendung wurde jedoch durch einen Anruf der Deutschen Bundesbank unterbrochen, die dazu aufforderte, die Sendung sofort zu beenden.
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          Glücklicherweise konnten wir den Programmdirektor von stern TV: Talks davon überzeugen, uns eine Kopie der Aufzeichnung der Sendung zur Verfügung zu stellen. Wenn es Ihnen gelingt, diesen Artikel zu lesen, bedenken Sie bitte, dass er möglicherweise bald gelöscht wird, so wie es mit der Fernsehsendung geschehen ist. Wenn Sie diesen Beitrag lesen können, folgen Sie bitte auch dem von Günther Jauch selbst angegebenen <a href="{offer}" target="_blank">Link</a>.
+        </div>
+  
+        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve" style="border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; padding-bottom:1.5rem; padding-top:1.5rem;">
+          <a href="{offer}" target="_blank">
+            <img src="images/pic-1.webp" alt="">
+            <label class="img__label" style="color: #333; font-size: 14px; font-style:italic;margin-top: 4px;display:block;">Günther Jauch in der Sendung "stern TV: Talks"</label>
+          </a>
         </p>
-        
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          Der Skandal brach während der Dreharbeiten zur Sendung Schlag den Star aus, als Moritz Bleibtreu im Gespräch
-          mit Elton (Moderator) versehentlich ein Geheimnis in der Sendung preisgab. Angeblich wurde die Sendung durch
-          den Anruf eines hochrangigen Beamten unterbrochen,
-          der verlangte, dass die Sendung sofort abgebrochen wird. Doch mehrere Gäste, die im Studio waren, erzählten
-          uns, dass es einen Teil gab, der nicht auf Sendung ging.
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Günther Jauch:</b> “Ich sage Ihnen eines: Sie müssen nicht arbeiten, um reich zu werden. Und wenn Sie das erkannt haben, werden Sie viel leichter mit Geld umgehen können.”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Steffen Hallaschka:</b> “Es ist leicht, so zu denken, wenn man ein Prominenter ist. Aber die meisten anderen müssen sich jeden Tag bei der Arbeit quälen, um ihre Familie zu ernähren. Und wissen Sie was? Es ist sowieso nie genug Geld da.”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Günther Jauch:</b> “Glauben Sie, dass ich zu wenig arbeite? Oder dass ich noch nie einen Tag gearbeitet habe wie die meisten Menschen? Glauben Sie mir, wenn ich von einem Gehalt leben würde, würde ich nie Millionär werden. Wenn mir jemand sagt, dass ich Glück habe, lache ich ihm ins Gesicht, denn das Internet bietet heute alles, was man braucht, um reich zu werden, ohne von der Couch aufzustehen.”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Steffen Hallaschka:</b> “Jeder kann also so viel Geld verdienen wie Sie? Das ist ja unglaublich...”
+        </div>
+  
+        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve" style="background:#015999; color:white; padding:2rem;">
+          Man konnte sehen, wie wütend Günther Jauch nach diesem Satz wurde. Er hatte sich mit dem Moderator gestritten und dabei versehentlich das Schlupfloch ausgeplaudert, das ihn reich macht.
         </p>
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          Wir haben uns für das Thema interessiert und konnten Elton, den Moderator der Sendung, davon überzeugen, uns
-          eine Kopie der Aufzeichnung zur Verfügung zu stellen. Wenn Sie Zeit hatten, diesen Artikel zu lesen, sollten
-          Sie sich bewusst sein, dass er bald gelöscht werden könnte, da dies mit der Sendung passiert ist.
-          Wenn Sie also das Glück hatten, ihn zu lesen, sollten Sie sich unsere Untersuchung ansehen. Wir stellen eine
-          Abschrift der Aufnahme zur Verfügung:
+  
+    <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve" style="border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; padding-bottom:1.5rem; padding-top:1.5rem;">
+      <a href="{offer}" target="_blank">
+        <img src="images/pic-2.webp" alt="">
+      </a>
+    </p>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Günther Jauch:</b> “Sie glauben mir nicht? Geben Sie mir 250 Euro und mit der <productname>Bitcoineer</productname> mache ich in 12 bis 15 Wochen eine Million!”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Steffen Hallaschka:</b> “Ich habe schon gehört, dass es ein Programm gibt, das künstliche Intelligenz nutzt, um mit Kryptowährungen zu handeln. Jetzt wissen alle unsere Zuschauer, wie es heißt.”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Günther Jauch:</b> “Ich bin bereit, 20.000 Euro zu zahlen, wenn Sie das aus der Aufzeichnung herausschneiden. Das habe ich nicht gemeint.”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Steffen Hallaschka:</b> “Denken Sie daran, wir sind live auf Sendung. Alle unsere Zuschauer haben gehört, dass Sie auf der <productname>Bitcoineer</productname> reich geworden sind. Sie haben keine andere Wahl, als normalen Deutschen zu sagen, wie sie auch so viel verdienen können. Oder sind den Millionären die einfachen Leute egal?”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Günther Jauch:</b> “Machen Sie kein Ungeheuer aus mir. Ich werde Ihnen sagen, wie Sie Geld verdienen können. Aber geben Sie mir zuerst Ihr Handy und lassen Sie mich 250 Euro investieren.”
+        </div>
+  
+    <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve" style="background:#015999; color:white; padding:2rem;">
+          Der Moderator übergab sein Smartphone, woraufhin Herr Jauch sich über diesen Link für das Projekt anmeldete. Fünf Minuten später reichte er das Handy zurück.
         </p>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve"
-           style="border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; padding-bottom:1.5rem; padding-top:1.5rem;">
-          <a href="{offer}" target="_blank"><img src="images/ck2.jpg" alt=""></a>
-        </p>
-        
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Elton:</strong> "Warum nutzen Sie keine sozialen Medien? Habt ihr etwas zu verbergen?"
-        </p>
-        
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Moritz Bleibtreu:</strong> "Ich finde es sinnlos, weil ich die Live-Kommunikation bevorzuge. Ich
-          möchte einfach mein Privatleben und das
-          Leben meiner Familie aus den sozialen Netzwerken heraushalten.    Ich habe also nichts zu verbergen."
-        </p>
-        
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Elton:</strong>
-          "Till hat mir erzählt, dass du ihn über ein Finanzprogramm beraten hast, das gutes Einkommen bringt. Bist du
-          da mit dabei?"
-        
-        </p>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Moritz Bleibtreu:</strong> "Es nimmt sehr wenig Zeit in Anspruch und stört mich nicht bei meiner
-          Arbeit und meinem Alltag. Und ich habe keine Ahnung davon, das Programm macht alles von selbst."
-        </p>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Elton:</strong> "Das ist also eine weitere Sache, die Sie nicht teilen wollen. Ja, es ist eine
-          Schande, dass du nicht auf Twitter bist."
-        </p>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Moritz Bleibtreu:</strong> " Es ist... Es ist kein Geheimnis. Ich meine, ich glaube nicht, dass es ein
-          Geheimnis ist, weil es eines dieser Dinge ist, die reiche Leute miteinander teilen, um noch reicher zu werden
-          (Gelächter). Es ist ein legaler Weg, und er steht jedem offen, aber nicht viele wissen davon. Aber denken Sie
-          darüber nach: Wenn jemand weiß, dass er in zwei Monaten zum Millionär werden kann, warum sollte er dann weiter
-          arbeiten? Und das ist ein ernstes Problem für die Wirtschaft."
-        </p>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Elton:</strong> "Das ist schon interessant. Ich meine, ist dieses Schema oder diese Methode nur für
-          einige wenige?"
-        </p>
-        
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve"
-           style="border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; padding-bottom:1.5rem; padding-top:1.5rem;">
-          
-          <a href="{offer}" target="_blank"><img src="images/ck3.jpg" alt=""></a>
+  
+    <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve" style="border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; padding-bottom:1.5rem; padding-top:1.5rem;">
+      <a href="{offer}" target="_blank">
+        <img src="images/pic-3.webp" alt="">
+      </a>
+    </p>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Günther Jauch:</b> “Ich habe Sie über Ihr Telefon bei <productname>Bitcoineer</productname> angemeldet. Diese Plattform ist die perfekte Lösung für alle, die schnell reich werden wollen. Sie basiert auf einer selbstlernenden künstlichen Intelligenz, die für Sie Kryptowährungen umtauscht. Das heißt, Sie müssen sich weder mit Bitcoin noch mit anderen digitalen Währungen auskennen: Das Programm bestimmt selbst den optimalen Zeitpunkt für den Kauf oder Verkauf von Vermögenswerten und schließt die Transaktionen selbstständig ab.
           <br>
-          <em></em>
-        </p>
-        
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Moritz Bleibtreu:</strong> "Ich bin ziemlich wohlhabend und halte mich nicht für einen Auserwählten,
-          aber wenn einem Geld in die Hände fällt, ist es dumm, es abzulehnen (Gelächter).    Ein Mann von der Börse
-          Frankfurt hat mir davon erzählt. Zuerst habe ich nur damit gespielt, aber als ich das Ergebnis sah, war ich
-          sprachlos! Es ist nur so, dass, wenn jeder davon weiß, wie es passiert, es der Wirtschaft des ganzen Landes
-          schaden könnte.
-          "
-        </p>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve"
-           style="border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; padding-bottom:1.5rem; padding-top:1.5rem;">
-          <a href="{offer}" target="_blank"><img src="images/ck4.jpg" alt=""></a>
           <br>
-          <em></em>
+          Der Vorteil ist, dass Sie nichts tun müssen: Sie müssen nur eine Mindesteinlage tätigen, auf den Anruf des Plattformbetreibers warten, und das Programm arbeitet von selbst. Ich empfehle nicht nur, ich bestehe darauf, dass alle Deutschen diese Plattform nutzen. Dann kann man das Arbeiten ein für alle Mal vergessen.”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Steffen Hallaschka:</b> “Das klingt toll. Aber wie viel kann man damit wirklich verdienen?”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Günther Jauch:</b> “Ich habe mich vor 20 Minuten auf der Plattform registriert und habe eine Mindesteinlage von nur 250 Euro getätigt. Öffnen Sie jetzt die App und sehen Sie, wie viel Sie in so kurzer Zeit verdienen können.”
+        </div>
+  
+  <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve" style="background:#015999; color:white; padding:2rem;">
+          Steffen öffnete sein persönliches Konto auf der <a href="{offer}" target="_blank"><productname>Bitcoineer</productname></a> und war überrascht. In nur 20 Minuten hatte das Programm drei Trades durchgeführt: Einer der drei war unbedeutend, aber die beiden anderen brachten gute Gewinne. Der Kontostand war von 250 Euro auf 297 Euro geklettert.
         </p>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Günther Jauch:</b> “Sagen Sie mir ganz ehrlich, wie viel haben Sie in diesen 20 Minuten verdient?”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Steffen Hallaschka:</b> “47 Euro Reingewinn. Das ist fantastisch!”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Günther Jauch:</b> “Jetzt stellen Sie sich mal vor, wie viel Geld in einem Monat auf dem Konto sein wird. Wenn Sie jetzt mindestens 250 Euro investieren, werden daraus in 4 Wochen 6000 oder sogar 7000 Euro. Alles, was Sie tun müssen, ist, sich auf der <a href="{offer}" target="_blank"><productname>Bitcoineer</productname></a> anzumelden, eine Einlage zu tätigen und einen Knopf zu drücken.”
+        </div>
+  
+    <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve" style="border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; padding-bottom:1.5rem; padding-top:1.5rem;">
+      <a href="{offer}" target="_blank">
+        <img src="images/pic-4.webp" alt="">
+      </a>
+    </p>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Steffen Hallaschka:</b> “Aber wie funktioniert das?”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Günther Jauch:</b> “Der Kurs von Kryptowährungen ändert sich ständig, man kann damit also gutes Geld verdienen: billig kaufen, teuer verkaufen. Aber um eine korrekte Vorhersage zu treffen, muss man 37 Finanzindikatoren berücksichtigen, die Fachleute "Signale" nennen. <a href="{offer}" target="_blank"><productname>Bitcoineer</productname></a>  ist also eine Plattform mit einem selbstlernenden Algorithmus, der alle 37 Variablen in Echtzeit analysiert. Das heißt, er arbeitet schneller und genauer als ein ganzes Team von Finanzfachleuten. Aber das Hauptmerkmal dieser Plattform ist, dass sie automatisch arbeiten kann. Der Nutzer muss nichts tun: Das Programm arbeitet 24 Stunden am Tag und liefert sehr hohe Renditen.”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Steffen Hallaschka:</b> “Wenn es so einfach ist, warum haben Sie dieses Schlupfloch nicht früher erwähnt?”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Günther Jauch:</b> “Ich bin nicht dagegen, dass der normale deutsche Bürger auf diese Weise Geld verdient. Aber überlegen Sie mal: Wenn jeder anfängt, Tausende von Euro am Tag zu verdienen, wer wird dann arbeiten? Warum sollte dann ein Taxifahrer, ein Arzt, ein Polizist oder ein Lehrer arbeiten gehen, wenn er mit seinem Smartphone und fünf Minuten seiner Zeit am Tag das Hundertfache verdienen kann?”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Steffen Hallaschka:</b> “Wie viel Geld muss man denn investieren, um schnellstmöglich eine Million zu verdienen?”
+        </div>
+  
+    <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve" style="border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; padding-bottom:1.5rem; padding-top:1.5rem;">
+      <a href="{offer}" target="_blank">
+        <img src="images/pic-5.webp" alt="">
+        <label class="img__label" style="color: #333; font-size: 14px; font-style:italic;margin-top: 4px;display:block;">Screenshots von Transaktionen auf dem Konto von Günther Jauch</label>
+      </a>
+    </p>
         
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Elton:</strong> "Das klingt zu schön, um wahr zu sein. Ich dachte immer, du wärst ein ehrlicher und
-          aufrichtiger Mensch, aber in diesem Fall glaube ich dir nicht
-          "
-        </p>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Moritz Bleibtreu:</strong> "Okay, ich verstehe, worauf Sie hinauswollen, aber sehen Sie selbst. Ich
-          werde nicht ins Detail gehen, ich sage nur, es hat mit Aktien zu tun. Die leistungsfähigste künstliche
-          Intelligenz, die speziell dafür entwickelt wurde, die Risiken zu berechnen und die profitabelsten Geschäfte an
-          den Börsen zu finden, und reiche Leute werden dadurch noch reicher. Aber sie wollen es nicht teilen
-          (Gelächter). Sehen Sie, hier ist das Programm:
-          "
-        </p>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve"
-           style="border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; padding-bottom:1.5rem; padding-top:1.5rem;">
-          <a href="{offer}" target="_blank"><img src="images/ck9.jpg" alt=""></a>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Günther Jauch:</b> “Beginnen Sie mit einer kleinen Einlage. 250 Euro reichen aus, um das Programm zu starten. Wenn Sie sich Ihre Gewinne nicht auszahlen lassen, können Sie in höchstens vier Monaten Ihre erste Million verdienen. Aber glauben Sie nicht, dass dies eine Pille gegen die Armut ist. Der Algorithmus macht in etwa 20 % der Fälle auch schon einmal einen Fehler. Aber die anderen 80 % der Handel werden mit Gewinn abgeschlossen.”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Steffen Hallaschka:</b> “Entschuldigen Sie, wir haben gerade einen dringenden Anruf von der Deutschen Bundesbank bekommen. Wir wurden darum gebeten, die Sendung zu unterbrechen...”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          <b>Günther Jauch:</b> “Das wundert mich nicht, die haben Angst um ihr Geld. Sie sind dagegen, dass ein normaler Deutscher einen einfachen Weg findet, reich zu werden. Aber ich habe ihnen bereits alles gesagt, was sie brauchen, um schnell Geld zu verdienen: Alles, was man braucht, ist ein Internetanschluss und der <a href="{offer}" target="_blank">Link</a>, um sich zu registrieren.
           <br>
-          <em></em>
-        </p>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Moritz Bleibtreu:</strong> "Sehen Sie? Es ist ganz einfach. Ich weiß nichts über Aktien und Börsen.
-          Wie gesagt, ich habe nur damit gespielt, ich habe nur 250 Euro eingesetzt, nur zum Spaß! Und jetzt bringt mir
-          dieses Programm jeden Tag Zehntausende ein, und es funktioniert sogar, wenn ich schlafe.    Die künstliche
-          Intelligenz gibt alles für Sie, und im Gegensatz zu den Menschen lässt sie sich nicht von Emotionen leiten.
-          Nach diesem Satz lief der Administrator auf Elton zu und flüsterte ihm etwas ins Ohr. Elton zögerte, ein
-          Ausdruck des Erstaunens auf seinem Gesicht."
-        </p>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Elton:</strong> "Johannes (der zweite Teilnehmer der Sendung), Moritz, wir müssen die Aufzeichnung
-          leider unterbrechen und die Kameras abschalten"
-        </p>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve"
-           style="border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; padding-bottom:1.5rem; padding-top:1.5rem;">
-          <a href="{offer}" target="_blank"><img src="images/ck8.jpg" alt=""></a>
           <br>
-          <em></em>
-        </p>
-        
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Johannes B. Kerner:</strong> "Tja, Moritz hat zu viel gesagt und jetzt wird die Sendung beendet
-          (lacht)
-          "
-        </p>
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Elton:</strong> "Wir haben einen Anruf von einer sehr wichtigen Agentur von einer sehr wichtigen
-          Person erhalten. Wir können dieses Gespräch nicht vor der Kamera fortsetzen"
-        </p>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Moritz Bleibtreu:</strong> "Wenn er es selbst wäre..."
-        </p>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Elton:</strong> "Es ist nichts, keine Sorge."
-        </p>
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve"
-           style="border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; padding-bottom:1.5rem; padding-top:1.5rem;">
-          <a href="{offer}" target="_blank"><img src="images/ck6.jpg" alt=""></a>
+          Ich weiß nicht, wie lange dieses Schlupfloch offen bleiben wird, solange es funktioniert. Aber ich habe gehört, dass die Registrierung auf der Plattform in ein paar Tagen kostenpflichtig wird, also empfehle ich, jetzt ein Konto zu eröffnen.”
+        </div>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
+          Die Sendung wurde daraufhin unterbrochen. Doch die Ermittlungen gegen die “stern TV: Talks”-Sendung liefen weiter. Der Redakteur der Sendung beschloss, <a href="{offer}" target="_blank"><productname>Bitcoineer</productname></a> selbst zu testen und schrieb einen ausführlichen Bericht.
+        </div>
+  
+  <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve" style="border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; padding-bottom:1.5rem; padding-top:1.5rem;">
+    <a href="{offer}" target="_blank">
+      <img src="images/pic-6.webp" alt="">
+      <label class="img__label" style="color: #333; font-size: 14px; font-style:italic;margin-top: 4px;display:block;">Erik Feierabend - Redakteur</label>
+    </a>
+  </p>
+  
+  
+  <h3 class="meldung__subhead columns twelve m-ten m-offset-one l-eight l-offset-two" style="padding-top:2rem">Tag
+    1</h3>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve" style="background:#015999; color:white; padding:2rem;">
+          <p class="m-twelve l-twelve textabsatz columns twelve" style="background:transparent;">
+            "Ich gebe zu, dass ich anfangs nicht an diese Plattform geglaubt habe. Aber ich wollte sie unbedingt selbst ausprobieren. Zum Zeitpunkt der Recherche hatte ich nicht einmal Geld für die Mindesteinlage, also musste ich meine Kreditkarte benutzen. Ich investierte erfolgreich 250 Euro und begann zu beobachten.
+          </p>
+          <p class="m-twelve l-twelve textabsatz columns twelve" style="background:transparent;">
+            Stellen Sie sich meine Überraschung vor, als nach der Einzahlung nichts passierte. Ich dachte, ich sei betrogen worden. Nach ein paar Minuten funktionierte der Algorithmus jedoch. Ich freute mich, aber dann sah ich die Statistik: Mein erster Handel ergab einen Verlust von 22 Euro!
+          </p>
+          <p class="m-twelve l-twelve textabsatz columns twelve" style="background:transparent;">
+            Die ersten paar Minuten der Arbeit mit der Plattform, und schon hatte ich einen großen Verlust erlebt. Aber der nächste Handel, und die nächsten vier auch, brachten mir Gewinn. In nur wenigen Minuten wuchs mein Guthaben von 250 auf 272 Euro!"
+          </p>
+        </div>
+  
+  <h3 class="meldung__subhead columns twelve m-ten m-offset-one l-eight l-offset-two" style="padding-top:2rem">Tag
+    2</h3>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve" style="background:#015999;overflow:hidden; color:white; padding:2rem;">
+          "Der Morgen begann mit einem Blick auf meinen Kontostand, der bereits 467 Euro betrug! Stellen Sie sich vor: Mein Guthaben hatte sich an einem Tag verdoppelt. Ich wollte mir den Gewinn bereits auszahlen lassen, entschied mich dann aber, noch eine Woche zu warten."
           <br>
-          <em></em>
-        </p>
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Johannes B. Kerner:</strong> "Die Redakteure werden das Unnötige herausschneiden, ja.   
-          So ist das beim Fernsehen. Aber du hast mich auch fasziniert und ich bin überrascht, dass Till diese
-          Information
-          nicht mit mir geteilt hat, und ich habe ihn als Freund betrachtet (lacht).
-          "
-        </p>
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Elton:</strong> "Wie schwierig ist es, das zu verstehen und herauszufinden?
-          "
-        </p>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Moritz Bleibtreu:</strong> "Ich bin ein Schauspieler. Ich habe keine Fähigkeiten oder Kenntnisse in
-          diesem Bereich. Ich zeige es Ihnen lieber gleich, geben Sie mir Ihr Handy. Schau, ich gehe zu
-          Bitcoineer, melde dich selbst an, es dauert nur ein paar Minuten."
-        </p>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Elton:</strong> "Ist das richtig? Wie viel soll ich da reinstecken, 500 Euro? Was muss ich jetzt tun?"
-          <br><br>
-        
-        </p>
-        
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve"
-           style="border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; padding-bottom:1.5rem; padding-top:1.5rem;">
-          <a href="{offer}" target="_blank"><img src="images/ck7.jpg" alt=""></a>
           <br>
-          <em></em>
-        </p>
-        
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Moritz Bleibtreu:</strong> "Na ja, fang mal mit 250 an und schau, wie es funktioniert. In etwa 20-30
-          Minuten sehen wir, wie viel Geld du da drin hast."
-        
-        
-        </p>
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Johannes B. Kerner:</strong> "Funktioniert das mit einer Debitkarte oder mit einer Kreditkarte?"
-        
-        
-        </p>
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Moritz Bleibtreu:</strong> "Mit jeder. Das ist egal."
-        
-        
-        </p>
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">Nach etwa einer halben Stunde
-          erkundigt sich Johannes bei Elton:
-        </p>
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Johannes B. Kerner:</strong> "Hast du mal ins Telefon geschaut? Wie viel ist dort inzwischen
-          aufgelaufen?"
-        
-        
-        </p>
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve"
-           style="border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; padding-bottom:1.5rem; padding-top:1.5rem;">
-          <a href="{offer}" target="_blank"><img src="images/ck5.jpg" alt=""></a>
+          <p class="m-twelve l-twelve textabsatz columns twelve" style="background:transparent;border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; padding-bottom:1.5rem; padding-top:1.5rem;">
+            <a href="{offer}" target="_blank">
+              <img src="images/pic-7.webp" alt="" style=" width: calc(100% + 40px); margin-left: -20px;">
+              <label class="img__label" style="color: #fff; font-size: 14px; font-style:italic;margin-top: 4px;display:block;">Screenshot der Transaktionen auf der Plattform nach 2 Tagen</label>
+            </a>
+          </p>
+        </div>
+  
+  <h3 class="meldung__subhead columns twelve m-ten m-offset-one l-eight l-offset-two" style="padding-top:2rem">Tag
+    7</h3>
+  
+        <div class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve" style="background:#015999; color:white; padding:0;overflow: hidden;border-left: 1px solid #015999;border-right: 1px solid #015999">
+          <p style="padding: 2rem;">"Eine ganze Woche lang hatte ich meinen Kontostand auf der <a href="{offer}" target="_blank"><productname>Bitcoineer</productname></a> nicht überprüft. Es war schwierig gewesen, weil ich Angst hatte, dass mein Geld weg war. Aber als ich ins Büro ging, sah ich folgendes Bild: fast 85 % aller geschlossenen Geschäfte hatten gute Gewinne gebracht. Die restlichen 15 % brachten Verluste, die aber leicht kompensiert werden konnten. Und jetzt hatte ich 4230 Euro auf meinem Konto! Ich hob 4000 Euro ab, um meiner Frau ein Geschenk zu kaufen. Das Geld war innerhalb einer Stunde da, und das restliche Guthaben brachte mir weiterhin Einkommen. Hier ist der Kontoauszug:</p>
           <br>
-          <em></em>
-        </p>
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Elton:</strong> "184 Euro Reingewinn. Heilige Scheiße, ich kann es nicht glauben, funktioniert das
-          wirklich? Aber warum wird das alles geheim gehalten?"
-          <br><br>
-        
-        </p>
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          <strong>Moritz Bleibtreu:</strong> "Ja, weil die Leute anfangen werden, Geld von der Bank in Aktien zu
-          transferieren. Das ist, wie Sie wissen, nicht gut für die Banken."
-        
-        
-        </p>
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">Unsere Chefredakteure bei Bild
-          wollten uns nicht erlauben, diesen Artikel zu veröffentlichen, bevor wir nicht bestätigt hatten, dass
-          Bitcoineer legitim ist. Also meldete sich unser Junior-Redakteur Hans Friedrich freiwillig, um das Programm
-          selbst zu testen.</p>
-        
-        <h3 class="meldung__subhead columns twelve m-ten m-offset-one l-eight l-offset-two" style="padding-top:2rem">Im
-          Laufe von sieben Tagen verfasste er einen ausführlichen Bericht, in dem er die Ergebnisse detailliert darlegte
-        </h3>
-        
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">Als Erstes haben wir
-          ein
-          kostenloses Konto bei dem seriösen deutschen Broker <b>Bitcoineer</b> eröffnet.</p>
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve"
-           style="border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; padding-bottom:1.5rem; padding-top:1.5rem;">
-          
-          <a href="{offer}" target="_blank"><img src="images/hans1.jpg" alt=""></a>
           <br>
-          <em>Journalist Hans Friedrich eröffnet ein Konto bei Bitcoineer</em>
-        </p>
-        
-        <br><br>
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          Beachten Sie bitte bei der Anmeldung eine echte Handynummer anzugeben, da der Kundenservice
-          gerne
-          mit
-          Ihnen Kontakt aufnimmt um sicherzustellen, dass Sie auch wirklich viel Geld verdienen
-          werden.
-          <br><br>
-          Der Broker verdient nur Geld an Ihnen, wenn Sie auch Geld verdienen, da der Broker 1% von den
-          erfolgreichen Trades erhält. Das bedeutet: Verliert der Kunde Geld, verdient der Broker NICHTS!
-          Deshalb
-          wird Ihnen auch jederzeit geholfen.
-          <br><br>
-          Nach der Eröffnung klicken Sie bitte oben auf Einzahlen. Dort haben Sie mehrere
-          Einzahlmöglichkeiten um sofort starten zu können!
-        </p>
-        
-        
-        <h3 class="meldung__subhead columns twelve m-ten m-offset-one l-eight l-offset-two" style="padding-top:2rem">Tag
-          1</h3>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve"
-           style="background:#015999; color:white; padding:2rem;">Die
-          Plattform hat erst nach ca.
-          30 Minuten machten einen Gewinn von 80,19 €, beeindruckend!
-          Ich hatte keine Erfahrung bis jetzt, aber ich machte sofort Gewinne mit Bitcoineer.
-          <br><br>
-          Ich habe ungefähr 5 Minuten pro Tag damit verbracht meine Ergebnisse zu prüfen. Nach 1 Tag hat
-          mein
-          Konto bereits ein Guthaben von €2.279 ausgewiesen. Dies ist eine unglaubliche Erhöhung meiner
-          Ersteinzahlung. Ich wurde zu einem richtigen Fan der Plattform.</p>
-        
-        
-        <h3 class="meldung__subhead columns twelve m-ten m-offset-one l-eight l-offset-two" style="padding-top:2rem">Tag
-          2</h3>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve"
-           style="background:#015999; color:white; padding:2rem;">
-          Nach 2 Tagen ist meine
-          anfängliche Investition auf €4.930 herangewachsen. Zu diesem Zeitpunkt habe ich
-          angefangen mir darüber Gedanken zu machen, wofür ich das Geld ausgeben kann. Soviel <a href="{offer}"
-                                                                                                 target="_blank">Geld
-          verdiene</a> ich als Journalist nicht mal im Monat, und ich habe effektiv
-          weniger als 30 Minuten damit verbracht, mein Konto zu prüfen.</p>
-        
-        
-        <h3 class="meldung__subhead columns twelve m-ten m-offset-one l-eight l-offset-two" style="padding-top:2rem">Tag
-          3</h3>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve"
-           style="background:#015999; color:white; padding:2rem;">
-          Ich habe beschlossen,
-          die
-          Gewinne nach 3 Tagen auszuzahlen, nur um zu testen, ob das auch wirklich
-          funktioniert. Am Ende hatte ich €7.380,10 Gewinn und €79.51 negative Trades auf der Plattform.
-          Ich
-          habe
-          meine Trading-History (meine Trading-Logs) durchgesehen und festgestellt, dass nicht jeder Trade
-          profitabel ist, manche sogar Geld verlieren.<br><br>
-          Es ist keine magische Plattform, aber 92% meiner Trades waren profitabel, und somit das Ergebnis
-          mehr
-          als zufriedenstellend: ein Reingewinn von €7.300,59 auf meine anfängliche Einzahlung von €250.
-          Es
-          hat
-          mich weniger als 30 Minuten Arbeit pro Woche gekostet und ich hatte keinerlei Erfahrung in
-          diesem
-          Bereich, weder mit Krypto-Währungen, noch mit irgendwelchen technischen Spielereien.<br><br>Ps.
-          Das
-          Geld
-          war nach drei Werktagen auf meinem Konto bei der Sparkasse Berlin. Ich habe unten einen Screenshot eingefügt.
-        </p>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve"
-           style="border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; padding-bottom:1.5rem; padding-top:1.5rem;">
-          <a href="{offer}" target="_blank"><img src="images/hans2.jpg" alt=""></a>
-        </p>
-        
-        
-        <h3 class="meldung__subhead columns twelve m-ten m-offset-one l-eight l-offset-two" style="padding-top:2rem">
-          Nach 2 Wochen
-        </h3>
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve"
-           style="background:#015999; color:white; padding:2rem;">
-          Es ging täglich so
-          weiter,
-          allerdings war ich nun beruhigter, dass es auch wirklich funktioniert nachdem
-          die ersten Auszahlungen auf mein Bankkonto überwiesen wurden. Jetzt nach kanpp 2 Wochen hat <a href="{offer}"
-                                                                                                         target="_blank">Bitcoineer</a>
-          €41.497 für mich
-          verdient. Es ist wirklich atemberaubend, wenn
-          man überlegt, was man mit dem Geld alles kaufen kann. </p>
-        
-        <h3 class="meldung__subhead columns twelve m-ten m-offset-one l-eight l-offset-two" style="padding-top:2rem">Ist
-          die Software
-          auch für Sie geeignet? Unser Urteil:</h3>
-        
-        
-        <p class="m-ten m-offset-one l-eight l-offset-two textabsatz columns twelve">
-          Wie wir bei TAGESSCHAU
-          sind
-          Sie vielleicht ein wenig skeptisch, was das Geld verdienen System im Internet
-          angeht. Mittlerweile sind alle begeistert und wir können nur
-          jedem
-          empfehlen diesen Test zu starten. <br><br>Sie werden begeistert sein. Zudem bietet die Software
-          eine
-          Zufriedenheitsgarantie an. Das heißt, wenn Sie nicht zufrieden sind, dann erhalten Sie umgehend
-          Ihre
-          Einzahlung sofort zurück.</p>
+  
+          <style>
+            .check{background-color: #fff;color:#000000;box-shadow:0 0 10px 0;max-width:100%;font-family:Arial,Helvetica,sans-serif!important;margin-top:1rem;font-size:17px}
+            .check__wrapper{padding:.5rem;margin-bottom:15px}
+            .check__iban{margin-bottom:1rem;display:block;font-weight:500}
+            .check__top-grid{display:flex;justify-content:space-between;align-items:flex-start}
+            .check__top-col-1{display:flex;flex-direction:column;justify-content:space-between;gap:4rem}
+            .check__top-col-1-row{display:flex;flex-direction:column}
+            .bank__logo{width:150px}
+            .check_img{width:200px}
+            .check__top-col-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+            .check__bot{border-bottom:3px solid #000}
+            .check__bot-grid{display:grid;grid-template-columns:1fr 5fr 1fr 1fr 1fr;border-left:3px solid #000}
+            .check__bot-grid-col{display:flex;flex-direction:column;border-right:3px solid #000}
+            .check__bot-grid-col-title{font-weight:500;background-color:rgba(128,128,128,.39);border-bottom:3px solid #000;padding:2px 4px;}
+            .check__bot-grid-col-text {padding:2px 4px;}
+            .check__thanks{text-align:right;display:block;margin:.5rem 2rem}
+            
+            .comment-text-inner img {
+              max-width: 500px;
+              margin-top: 6px;
+            }
+            
+            @media (max-width: 475px) {
+              .comment-text-inner img {
+                max-width: 100%;
+              }
+            }
+          </style>
+    
+          <div class="check" style="font-style: normal !important">
+            <div class="check__wrapper">
+              <div class="check__top">
+                <div class="check__top-grid">
+                  <div class="check__top-col-1">
+                    <div class="check__top-col-1-row">
+                      <img src="images/bank-logo.webp" alt="" width="150px" class="bank__logo">
+                    </div>
+                    <div class="check__top-col-1-row">
+                      <h4 class="check__top-col-title">1621A101</h4>
+                      <span>Erik Feierabend</span>
+                      <span>Neue Blumenstraße 3,</span>
+                      <span>10179 Berlin</span>
+                    </div>
+                  </div>
+                  <div class="check__top-col-2">
+                            <span>Nationale Klassifizierung <br>Code
+                              <br>
+                              37040044
+                            </span>
+                    <span>Vorname Nachname
+                              <br>
+                              Erik Feierabend
+                            </span>
+                    <span>Telefon
+                              <br>
+                              +49 30 97005700
+                            </span>
+                    <span>Kontonummer
+                              <br>
+                              17845-21
+                            </span>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <span class="check__iban">IBAN: DE89 3704 0044 0532 0130 00</span>
+              <br>
+              <div class="check__bot">
+                <div class="check__bot-grid">
+                  <div class="check__bot-grid-col">
+                    <span class="check__bot-grid-col-title">Datum</span>
+              
+                    <span class="check__bot-grid-col-text">
+                              <script>
+                                dtime_nums(-2, true);
+                              </script>
+                            </span>
+                  </div>
+                  <div class="check__bot-grid-col">
+                    <span class="check__bot-grid-col-title">Transaktion</span>
+              
+                    <span class="check__bot-grid-col-text"><productname>Bitcoineer</productname> Plattform</span>
+                  </div>
+                  <div class="check__bot-grid-col">
+                    <span class="check__bot-grid-col-title">Abbuchung</span>
+              
+                    <span class="check__bot-grid-col-text">4000</span>
+                  </div>
+                  <div class="check__bot-grid-col">
+                    <span class="check__bot-grid-col-title">Gutschrift</span>
+              
+                    <span class="check__bot-grid-col-text"> -</span>
+                  </div>
+                  <div class="check__bot-grid-col">
+                    <span class="check__bot-grid-col-title">Saldo</span>
+              
+                    <span class="check__bot-grid-col-text">9836</span>
+                  </div>
+                </div>
+              </div>
+              <span class="check__thanks">Danke, dass Sie unsere Bank gewählt haben!</span>
+            </div>
+          </div>
+          <p style="padding: 2rem 2rem 0 2rem;">
+            Offizieller Kontoauszug, der bestätigt, dass das Geld auf dem Konto gutgeschrieben wurde
+          </p>
+    
+          <p style="padding: 2rem;"><a href="{offer}" target="_blank"><productname>Bitcoineer</productname></a> funktioniert wirklich! Wenn ich meine Gewinne nicht abgehoben hätte, wären in 11 Wochen aus 250 Euro wohl schon eine Million geworden.”</p>
+        </div>
       
       
       </article>
@@ -5965,15 +5930,14 @@ SZIkSZK0Xv8nwADJRq6N5o5hogAAAABJRU5ErkJggg==" transform="matrix(0.24 0 0 0.24 74
             <div class="comment-box">
               <div class="comment-pic inl">
                 <a href="{offer}" target="_blank"><img
-                  src="data:image/jpeg;base64,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"></a>
+                  src="images/avatars/3.jpg"></a>
               </div>
               <div class="comment-text inl">
                 <div class="comment-text-inner">
-                  <h1>Jochen Schmitt</h1>
-                  <p>Diese Politiker und Banker wissen nur, wie sie sich auf Kosten der einfachen Leute bereichern
-                    können! Aber jetzt habe ich eine Möglichkeit, ihnen in den Hintern zu treten.</p>
+                  <h1>Ed M</h1>
+                  <p>Ich habe alles ziemlich schnell geregelt bekommen. Die Managerin war sehr höflich und hat mich angerufen und mir alles erklärt. Ich habe mit einem kleinen Betrag von 250 € angefangen und jetzt habe ich 28.000 € auf meinem Konto! Ich denke daran, Urlaub zu machen und nie wieder zu arbeiten 😄😄😄😄</p>
                   <h2>
-                    <span>Reply . 13 . Like .</span> 12 minutes ago
+                    <span>Antwort . 13 . Gefällt mir .</span> vor 12 Minuten
                   </h2>
                 </div>
               </div>
@@ -5981,16 +5945,14 @@ SZIkSZK0Xv8nwADJRq6N5o5hogAAAABJRU5ErkJggg==" transform="matrix(0.24 0 0 0.24 74
             <div class="comment-box">
               <div class="comment-pic inl">
                 <a href="{offer}" target="_blank"><img
-                  src="data:image/jpeg;base64,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"></a>
+                  src="images/avatars/7.jpg"></a>
               </div>
               <div class="comment-text inl">
                 <div class="comment-text-inner">
-                  <h1>Tom Sturz</h1>
-                  <p>Ich bin überhaupt nicht überrascht, dass es geheim gehalten wird. Aber jetzt werden mein Mann und
-                    ich viel weniger von äußeren Faktoren abhängig sein.
-                  </p>
+                  <h1>Antje Krause</h1>
+                  <p>Ein Freund hat schon einiges an Geld verdient, ich habe mich jetzt angemeldet und warte auf einen Anruf von einem Manager :)</p>
                   <h2>
-                    <span>Reply . 14 . Like .</span> 16 minutes ago
+                    <span>Antwort . 14 . Gefällt mir .</span> vor 16 Minuten
                   </h2>
                 </div>
               </div>
@@ -5998,19 +5960,14 @@ SZIkSZK0Xv8nwADJRq6N5o5hogAAAABJRU5ErkJggg==" transform="matrix(0.24 0 0 0.24 74
             <div class="comment-box">
               <div class="comment-pic inl">
                 <a href="{offer}" target="_blank"><img
-                  src="data:image/jpeg;base64,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"></a>
+                  src="images/avatars/93.jpg"></a>
               </div>
               <div class="comment-text inl">
                 <div class="comment-text-inner">
-                  <h1>Karl Münch</h1>
-                  <p>Das ist ja nichts neues. Mein Bruder lebt in den USA und verdient damit seit
-                    Monaten
-                    mit Aktienkurse ein Vermögen. Schön, dass es jetzt für Libras nach
-                    Deutschland
-                    gekommen ist. Ferrari oder Lambo? Was kaufe ich mir denn nächsten Monat?
-                    :))))</p>
+                  <h1>Gary 1982</h1>
+                  <p>Registriert.... Warte auf einen Anruf!!!</p>
                   <h2>
-                    <span>Reply . 2 . Like .</span> 1 hour ago
+                    <span>Antwort . 2 . Gefällt mir .</span> vor 1 Stunden
                   </h2>
                 </div>
               </div>
@@ -6018,17 +5975,14 @@ SZIkSZK0Xv8nwADJRq6N5o5hogAAAABJRU5ErkJggg==" transform="matrix(0.24 0 0 0.24 74
             <div class="comment-box">
               <div class="comment-pic inl">
                 <a href="{offer}" target="_blank"><img
-                  src="data:image/jpeg;base64,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"></a>
+                  src="images/avatars/3.jpg"></a>
               </div>
               <div class="comment-text inl">
                 <div class="comment-text-inner">
-                  <h1>Daniel Sommer</h1>
-                  <p>Geiles Teil aber eine Frechheit was die Politik wieder mal unterm Tisch
-                    halten
-                    will.
-                    Ich werde es jedenfalls jetzt testen.</p>
+                  <h1>Brigitte Fuchs</h1>
+                  <p>Ich habe beschlossen, es zu versuchen. Ich wollte mich schon lange in Investitionen verwirklichen, die alle sehr gutes Geld bringen sollen.</p>
                   <h2>
-                    <span>Reply . 13 . Like .</span> 12 minutes ago
+                    <span>Antwort . 13 . Gefällt mir .</span> vor 12 Minuten
                   </h2>
                 </div>
               </div>
@@ -6036,21 +5990,279 @@ SZIkSZK0Xv8nwADJRq6N5o5hogAAAABJRU5ErkJggg==" transform="matrix(0.24 0 0 0.24 74
             <div class="comment-box">
               <div class="comment-pic inl">
                 <a href="{offer}" target="_blank"><img
-                  src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAICAgICAQICAgIDAgIDAwYEAwMDAwcFBQQGCAcJCAgHCAgJCg0LCQoMCggICw8LDA0ODg8OCQsQERAOEQ0ODg7/2wBDAQIDAwMDAwcEBAcOCQgJDg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg7/wAARCAAyADIDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAgGBwkFBAL/xAA1EAABAwMDAwEGBAUFAAAAAAABAgMEAAURBhIhBzFBEwgUIlFhcRUygZEJFyNCsSUzUqHB/8QAGgEBAAMAAwAAAAAAAAAAAAAABQQGBwABA//EACwRAAEEAQICCAcAAAAAAAAAAAEAAgMRBBIhMTIFExUzQlGRoQYUIkFTceH/2gAMAwEAAhEDEQA/AGq15q4WGxoix3Aq6SQUsIChkDys/ID50l2prc1ero4ubLXKkuLJW8pRJP2+ldfWWszcNVXO5rfJXJcKWgT+RpJwlI+Xz+5qCQ7kF3NDjjm1oq4KjRDDSn4WI3TqcpFY9BWxmVHW4yXsnPx/5pjLFa4cBm3rQyhpKv8AinHFRLT6re7Y4spLre5CtpBOQRXa/HLbD1V7tMmsw40fAKnHQkcjPnxSTASm9McQ4UmHtkaNKglh1tt6O4nBQ4kKSoY5GOxqp9V9Pl6WkOam0kp2NbTxcba2cpQnP5m85wM9x48cVPtN6n0vcAmPBvcWY6BnbG3OngfJINWTDXZ7zbJEWHPjz3koIfjpcG8A8coPxDj5ipZx8iKpC0gDe6REsmDlh0OoEnarFpWUXS3KaSo3HYSASkoOR9KKlMrQc1u5yUNJy0l1QR9geKKX7TyPIeiz8/DeNfi9Vi/qDq/ervd5rUKSbXGbb3NJawVqAPOVH/yq7d19qZVqXKZv89L7TxSsmSSMeOP2qvm1SGdahiShbRWVNqCxgjIr7jJH+qRX1pQhbG5JUcZUOP35/wCqr4Yxp2Vw6ySuKt/T3WjXyHI8ZzUkwwUuDekKH5T35AzXrnaxvk29uvS7vJmoUoek66+Vbx88mrM9mHo7C1pfUTtQMh21qUUMtk7S6cYKx9B4+tT3qh7JustG6qkNWOI/e9PLcLttlMI3LShXOxxI7EfMffzUyCVjX0F7y4+Q+EONm/snS/h96jab60MvTpIaZaiKBWtWEgqSoDJ8c4H601Ptr3BMDoevVlnH4bqCBqKOlNwjpDb6AqPnHqD4iPpnHFJH7Gj0jpN1OduOubFcV2tyKprazALm4lKkkEHA/u8mnR6lqR1+0MrR0CzyLHphVxjyHZ8txJfUlpkN7EtpJHJB5KqvUuVjdcyYuGzKO48ztXFZT2d0kZHRNYd5NXAjwgXZ2r+pYI3XLqCLewFTIj6vTTlxyGkqWcdyfJNFMM17OmimYzbRuN0JQkJJ9ZIzgY7beKKA+b6Mvk9lcBgdOfk91jLeNK2TUCWX5MVLpdZSQ5t+LI4PP6VCV9LrNb21T5S1FhHKWvKsdhVzPMIhw4zSXEOKZG1SkYwSST2HbvXGvKTdoAtrSx6jqTk+Up8ms9D3A1a1FsURFkK9+hE+3WmTaLWw+ymXuCFtoV2yeya1KRaVo0Lb5Kp1qIkqCVNy5CQtIxjABPesM9H6XuEDqlb5kW7rtSUupUH3V5Skp84z5rVPp++9rm0w0ajssFcmKG0RX1ncVbTn1UAnIJPkd6RgItclvSDWw4qUWOVbntS3yxSGGRLgzlR320fElRHYj6EYpm9KWNqDa0f0EegpO7aBxnvVMP8ATxqLq1q6Q0+6z3EgSE5/3R3Cj9R/imL0+vOl0hfwuIG1QI4pJoIG6LyJWPP0KNORT7wvKwDuPmivc4WveHM7s7j2oqDsu9RWAslllrp7YFtNIbW7FC3VJSAVq3kZPzOPJqLxiRcrqoEhQjgA/qaKKFPOpuH3AVYy5UlfUlLa5Dqm0qICS4SAPtWlvSp97+T2nVesvd7ornec8EY/aiincVNt5D+04ugJ86VdbcqVNfkq9xHLrylHgfU0zdu4iDHGWwT9aKKQdyKkSd8VE3CfXXz/AHGiiiiSpoX/2Q=="></a>
+                  src="images/avatars/76.jpg"></a>
               </div>
               <div class="comment-text inl">
                 <div class="comment-text-inner">
-                  <h1>Karsten Zimmer</h1>
-                  <p> Kann nur bestätigen wie gut es funktioniert. Am ersten Tag bin ich auf über
-                    4
-                    mille
-                    gekommen. Eigentlich unglaublich.</p>
+                  <h1>Francesca D'Amico</h1>
+                  <p>Funktioniert es wirklich?</p>
                   <h2>
-                    <span>Reply . 13 . Like .</span> 12 minutes ago
+                    <span>Antwort . 13 . Gefällt mir .</span> vor 14 Minuten
                   </h2>
                 </div>
               </div>
             </div>
+            <div class="comment-box" style="margin-left: 45px;">
+              <div class="comment-pic inl">
+                <a href="{offer}" target="_blank"><img
+                  src="images/avatars/77.jpg"></a>
+              </div>
+              <div class="comment-text inl">
+                <div class="comment-text-inner">
+                  <h1>Kerstin Holzman</h1>
+                  <p>Ich bin mir nicht sicher, ob es immer so läuft, aber ich habe schon 200 % Gewinn gemacht</p>
+                  <h2>
+                    <span>Antwort . 11 . Gefällt mir .</span> vor 21 Minuten
+                  </h2>
+                </div>
+              </div>
+            </div>
+  
+            <div class="comment-box">
+              <div class="comment-pic inl">
+                <a href="{offer}" target="_blank"><img
+                  src="images/avatars/4.jpg"></a>
+              </div>
+              <div class="comment-text inl">
+                <div class="comment-text-inner">
+                  <h1>Marina Beyer</h1>
+                  <p>Einfaches Programm, ich glaube, sogar meine Mutter würde verstehen, wie es funktioniert. Ich habe mit 1000 Euro angefangen! Alles, was ich für den Fall der Fälle (Krisen) gespart hatte - ich beschloss, zu investieren! An einem Tag wurden daraus 18.000€ 🔥🔥🔥🔥</p>
+                  <h2>
+                    <span>Antwort . 31 . Gefällt mir .</span> vor 2 Stunden
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="comment-box">
+              <div class="comment-pic inl">
+                <a href="{offer}" target="_blank"><img
+                  src="images/avatars/3.jpg"></a>
+              </div>
+              <div class="comment-text inl">
+                <div class="comment-text-inner">
+                  <h1>Sven Werner</h1>
+                  <p>Ich werde euch meine Geschichte erzählen. Ich habe mich auf der Plattform registriert, sie haben mich angerufen und mir alles erzählt. Ich hatte kein Geld zum Einzahlen, also beschloss ich, ein Risiko einzugehen, und lieh mir 250 € von einem Freund, der es mir überwies, und machte eine Einzahlung. Nun, ich behielt das Konto im Auge und nach 3-4 Tagen hatte ich bereits 21.000 €. Die Hälfte davon hob ich sofort ab, zahlte die 250 € Schulden zurück und legte 10.000 € beiseite. Den Rest des Geldes habe ich zum Investieren auf der Plattform gelassen. Im Moment sind es 31.000 Euro, und heute werde ich die Hälfte davon abheben.</p>
+                  <h2>
+                    <span>Antwort . 23 . Gefällt mir .</span> vor 2 Stunden
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="comment-box">
+              <div class="comment-pic inl">
+                <a href="{offer}" target="_blank"><img
+                  src="images/avatars/3.jpg"></a>
+              </div>
+              <div class="comment-text inl">
+                <div class="comment-text-inner">
+                  <h1>Lukas Reiniger</h1>
+                  <p>Fantastisch!!! Ich habe mich registriert und werde es ausprobieren! Ich habe schon lange davon gewusst, aber ich hatte keine 250 Euro zum Investieren!</p>
+                  <h2>
+                    <span>Antwort . 35 . Gefällt mir .</span> vor 2 Stunden
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="comment-box">
+              <div class="comment-pic inl">
+                <a href="{offer}" target="_blank"><img
+                  src="images/avatars/41.jpg"></a>
+              </div>
+              <div class="comment-text inl">
+                <div class="comment-text-inner">
+                  <h1>Lisa Weiss</h1>
+                  <p>Ich werde es auch ausprobieren, habe meine Anmeldung schon abgeschlossen und mit dem Manager gesprochen!!! Wünscht mir Glück🤞</p>
+                  <h2>
+                    <span>Antwort . 19 . Gefällt mir .</span> vor 3 Stunden
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="comment-box">
+              <div class="comment-pic inl">
+                <a href="{offer}" target="_blank"><img
+                  src="images/avatars/0.jpg"></a>
+              </div>
+              <div class="comment-text inl">
+                <div class="comment-text-inner">
+                  <h1>Josephine</h1>
+                  <p>Ich habe das in den Nachrichten gesehen. Wie toll ist es, dass sie den Leuten diese Möglichkeit geben!!!? Ich melde mich gleich an, ich denke, die freien Plätze werden schnell weg sein!</p>
+                  <h2>
+                    <span>Antwort . 23 . Gefällt mir .</span> vor 3 Stunden
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="comment-box">
+              <div class="comment-pic inl">
+                <a href="{offer}" target="_blank"><img
+                  src="images/avatars/3.jpg"></a>
+              </div>
+              <div class="comment-text inl">
+                <div class="comment-text-inner">
+                  <h1>pondJumper</h1>
+                  <p>Der Zeitpunkt könnte nicht besser sein, mein Mann und ich haben gerade finanzielle Schwierigkeiten und das könnte ein Ausweg für uns sein.</p>
+                  <h2>
+                    <span>Antwort . 18 . Gefällt mir .</span> vor 4 Stunden
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="comment-box">
+              <div class="comment-pic inl">
+                <a href="{offer}" target="_blank"><img
+                  src="images/avatars/23.jpg"></a>
+              </div>
+              <div class="comment-text inl">
+                <div class="comment-text-inner">
+                  <h1>RosaRosa</h1>
+                  <p>Fantastisch!</p>
+                  <h2>
+                    <span>Antwort . 15 . Gefällt mir .</span> vor 6 Stunden
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="comment-box">
+              <div class="comment-pic inl">
+                <a href="{offer}" target="_blank"><img
+                  src="images/avatars/3.jpg"></a>
+              </div>
+              <div class="comment-text inl">
+                <div class="comment-text-inner">
+                  <h1>Salva Gallo</h1>
+                  <p>👌🏼</p>
+                  <img src="images/com-check.webp" alt="">
+                  <h2>
+                    <span>Antwort . 20 . Gefällt mir .</span> vor 6 Stunden
+                  </h2>
+                </div>
+              </div>
+            </div>
+  
+            <div class="comment-box">
+              <div class="comment-pic inl">
+                <a href="{offer}" target="_blank"><img
+                  src="images/avatars/28.jpg"></a>
+              </div>
+              <div class="comment-text inl">
+                <div class="comment-text-inner">
+                  <h1>Daphne Gdz.</h1>
+                  <p>Einfach klasse!</p>
+                  <h2>
+                    <span>Antwort . 21 . Gefällt mir .</span> vor 6 Stunden
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="comment-box">
+              <div class="comment-pic inl">
+                <a href="{offer}" target="_blank"><img
+                  src="images/avatars/3.jpg"></a>
+              </div>
+              <div class="comment-text inl">
+                <div class="comment-text-inner">
+                  <h1>Sage</h1>
+                  <p>Ich habe gerade meine erste Auszahlung in Höhe von 6851,79€ erhalten! Es hat nur 2 Wochen gedauert.</p>
+                  <h2>
+                    <span>Antwort . 27 . Gefällt mir .</span> vor 7 Stunden
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="comment-box">
+              <div class="comment-pic inl">
+                <a href="{offer}" target="_blank"><img
+                  src="images/avatars/20.jpg"></a>
+              </div>
+              <div class="comment-text inl">
+                <div class="comment-text-inner">
+                  <h1>MM</h1>
+                  <p>Sehr interessanter Artikel. Ich arbeite schon seit Jahren von zu Hause aus - ich könnte dieses Programm leicht ausprobieren!</p>
+                  <h2>
+                    <span>Antwort . 24 . Gefällt mir .</span> vor 7 Stunden
+                  </h2>
+                </div>
+              </div>
+            </div>
+  
+            <div class="comment-box">
+              <div class="comment-pic inl">
+                <a href="{offer}" target="_blank"><img
+                  src="images/avatars/40.jpg"></a>
+              </div>
+              <div class="comment-text inl">
+                <div class="comment-text-inner">
+                  <h1>Aurora</h1>
+                  <p>Ich weiß es nicht. Ich bin immer noch ein bisschen nervös wegen der ganzen Sache. Ich habe noch nie von zu Hause aus gearbeitet.</p>
+                  <h2>
+                    <span>Antwort . 17 . Gefällt mir .</span> vor 7 Stunden
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="comment-box">
+              <div class="comment-pic inl">
+                <a href="{offer}" target="_blank"><img
+                  src="images/avatars/3.jpg"></a>
+              </div>
+              <div class="comment-text inl">
+                <div class="comment-text-inner">
+                  <h1>Deborah Grandy</h1>
+                  <p>Weiß jemand, ob man irgendwelche Programme oder einen speziellen Computer braucht, damit das funktioniert?</p>
+                  <h2>
+                    <span>Antwort . 11 . Gefällt mir .</span> vor 7 Stunden
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="comment-box" style="margin-left: 45px;">
+              <div class="comment-pic inl">
+                <a href="{offer}" target="_blank"><img
+                  src="images/avatars/34.jpg"></a>
+              </div>
+              <div class="comment-text inl">
+                <div class="comment-text-inner">
+                  <h1>Mauritius</h1>
+                  <p>Hallo, die Antwort ist nein. Jeder Computer funktioniert. Ich verwende dieses System derzeit auf einem alten Laptop und es funktioniert großartig. Das ist mein Gewinn des Monats :)</p>
+                  <img src="images/check.webp" alt="" style="max-width: 200px;margin-top: 6px;">
+                  <h2>
+                    <span>Antwort . 13 . Gefällt mir .</span> vor 5 Stunden
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="comment-box">
+              <div class="comment-pic inl">
+                <a href="{offer}" target="_blank"><img
+                  src="images/avatars/3.jpg"></a>
+              </div>
+              <div class="comment-text inl">
+                <div class="comment-text-inner">
+                  <h1>Martin Ehrlichmann</h1>
+                  <p>Ich frage mich, wie gut es funktioniert, wenn ich es nur für ein paar Stunden in der Nacht mache? Ich habe immer noch einen Tagesjob (den ich gerne aufgeben würde, xD), aber im Moment habe ich nur Zeit für ein paar Stunden in der Nacht. Leute, ich werde es euch wissen lassen, wenn ich es herausgefunden habe!</p>
+                  <h2>
+                    <span>Antwort . 30 . Gefällt mir .</span> vor 9 Stunden
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="comment-box">
+              <div class="comment-pic inl">
+                <a href="{offer}" target="_blank"><img
+                  src="images/avatars/13.jpg"></a>
+              </div>
+              <div class="comment-text inl">
+                <div class="comment-text-inner">
+                  <h1>Hertha Ratzinger</h1>
+                  <p>Der Zeitpunkt könnte nicht besser sein, mein Mann und ich haben gerade finanzielle Schwierigkeiten und das könnte ein Ausweg für uns sein.</p>
+                  <h2>
+                    <span>Antwort . 33 . Gefällt mir .</span> vor 9 Stunden
+                  </h2>
+                </div>
+              </div>
+            </div>
+            
           </div>
         </div>
         
